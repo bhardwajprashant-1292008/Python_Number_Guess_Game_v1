@@ -5,6 +5,7 @@ while num!=guess:
     guess=int(input("Enter your guess:"))
     if guess==num:
         print("congratulation's")
+        break
     else:
         print("try again")
     choice=input("Do You Whant TO Continu Pls Enter (y/n)").lower()
